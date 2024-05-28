@@ -1,10 +1,10 @@
 const mysql = require('mysql');
 const pool = mysql.createPool({
     connectionLimit: 10, // maximum number of connections to create at once
-    host: 'boehkzigmgofd06e21h6-mysql.services.clever-cloud.com',
-    user: 'usnww8izsyt7e0ca',
-    password: 'wgrOoGNvFJkoOPKdeGV2',
-    database: 'boehkzigmgofd06e21h6'
+    host: 'bakuycwclm9fp99mybda-mysql.services.clever-cloud.com',
+    user: 'uloh3uqgmgriib0p',
+    password: 'Fn5hrHR2PfnX4Icb5hOh',
+    database: 'bakuycwclm9fp99mybda'
 });
 
 exports.getAllInstitutions = function(callback) {
